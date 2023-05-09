@@ -164,6 +164,6 @@ app.delete('/api/mahasiswa/:nim', (req, res) => {
     });
 });
 
-// buat servernya yaa
+// buat servernya
 app.listen(PORT, () => console.log(`Server running at port: ${PORT}`));
 
